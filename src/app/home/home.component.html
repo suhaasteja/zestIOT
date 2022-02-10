@@ -1,0 +1,31 @@
+<main>
+  
+  <app-navbar></app-navbar>
+
+  <div>
+    <mat-sidenav-container>
+      <mat-sidenav #sidenav mode="side" [(opened)]="opened">
+        <div class="sidenav">
+          <button class="sidenav-element btn-primary" routerLink="/dashboard">
+          <p>Dashboard</p>
+          </button>
+        <button class="sidenav-element btn-primary" routerLink="/about">
+          <p>About</p>
+        </button>
+        </div>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        <button
+          id="toggle-sidenav"
+          mat-mini-fab
+          color="accent"
+          (click)="opened = !opened"
+        >
+          <mat-icon>menu</mat-icon>
+        </button>
+
+        <h1>Home page</h1>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
+</main>

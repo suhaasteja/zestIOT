@@ -1,0 +1,41 @@
+
+
+button {
+  cursor: pointer;
+}
+
+mat-sidenav-container {
+  height: 90vh;
+  background-color: lightcyan;
+  text-align: center;
+  margin: 1rem;
+}
+
+mat-sidenav {
+  background-color: cyan;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#toggle-sidenav{
+    float: left;
+}
+
+.sidenav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav-element{
+  border: 1px solid gray;
+  width: 90%;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+

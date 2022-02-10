@@ -1,0 +1,37 @@
+.about-container {
+  margin: 1rem;
+  font-family: tahoma;
+}
+
+.about-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-mission {
+  text-align: center;
+  font-size: 20px;
+}
+
+.about-mission mat-card {
+  background-image: url("https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+  background-size: cover;
+  padding: 15rem;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 1rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.about-content article {
+  width: 100%;
+  height: fit-content;
+}
+
+

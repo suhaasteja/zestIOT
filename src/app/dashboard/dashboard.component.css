@@ -1,11 +1,24 @@
-table{
-    width: 100%;
+.dashboard-container {
+  margin: 1rem;
+}
+.dashboard-header {
+  text-align: center;
 }
 
-.dashboard-container{
-    margin: 1rem;
+.table-container {
+  margin: 2rem;
+  padding: 1rem;
 }
 
-.table-container{
-    margin: 2rem;
+table {
+  width: 100%;
 }
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+ td{
+   text-transform: capitalize;
+ }

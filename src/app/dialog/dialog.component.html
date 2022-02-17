@@ -1,0 +1,38 @@
+<h2>Add employee</h2>
+
+<div class="dialog-container" mat-dialog-content>
+  <form [formGroup]="employeeForm" #form ngNativeValidate>
+    <mat-form-field appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput placeholder="Name" formControlName="name" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Role</mat-label>
+      <mat-select formControlName="role" required>
+        <mat-option value="developer">Developer</mat-option>
+        <mat-option value="intern">Intern</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Designation</mat-label>
+      <mat-select formControlName="designation" required>
+        <mat-option value="senior">senior</mat-option>
+        <mat-option value="junior">junior</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </form>
+
+  <div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>close</button>
+    <button
+      mat-raised-button
+      color="primary"
+      mat-dialog-close
+      (click)="form.checkValidity()? addEmployee() : null"
+    >
+      {{actionBtn}}
+    </button>
+  </div>
+</div>

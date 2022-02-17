@@ -1,7 +1,5 @@
-<mat-toolbar-row class="navbar">
-    <span>{{ time }}</span>
-    <span>
-      <button routerLink="/login" class="btn btn-primary">logout</button>
-    </span>
-  </mat-toolbar-row>
-
+<mat-toolbar-row class="navbar bg-primary">
+  <span>{{ time }}</span>
+  <button routerLink="/login" class="btn btn-danger">logout</button>
+  <mat-slide-toggle >dark mode</mat-slide-toggle>
+</mat-toolbar-row>

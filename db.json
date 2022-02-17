@@ -1,0 +1,44 @@
+{
+  "employeeList": [
+    {
+      "name": "suhaas",
+      "role": "intern",
+      "designation": "junior",
+      "id": 1
+    },
+    {
+      "name": "rahul",
+      "role": "intern",
+      "designation": "junior",
+      "id": 2
+    },
+    {
+      "name": "sam",
+      "role": "intern",
+      "designation": "senior",
+      "id": 3
+    },
+    {
+      "name": "anand",
+      "role": "developer",
+      "designation": "junior",
+      "id": 4
+    },
+    {
+      "name": "ram",
+      "role": "developer",
+      "designation": "junior",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
